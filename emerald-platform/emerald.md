@@ -1,8 +1,12 @@
+---
+description: >-
+  Emerald has similar characteristics to Truffle Framework, however, integrates
+  the tools of the Emerald Platform and more.
+---
+
 # Emerald
 
 **GitHub** [https://github.com/ETCDEVTeam/emerald](https://github.com/ETCDEVTeam/emerald)
-
-Emerald has similar characteristics to Truffle Framework, however, integrates the tools of the Emerald Platform and more.
 
 ## Dependencies
 
