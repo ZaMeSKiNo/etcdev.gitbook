@@ -177,7 +177,7 @@ Terminating the terminal running the testRPC will terminate the local testNet. S
 To view a blockchain explorer, run emerald explorer
 
 ```text
-$ emerald emerald explorer
+$ emerald explorer
 ```
 
 The local block explorer will publish to [http://localhost:3000/blocks](http://localhost:3000/blocks). If a emerald testrpc is running, the explorer can toggle between the local testnet or mainnet in the app bar.
