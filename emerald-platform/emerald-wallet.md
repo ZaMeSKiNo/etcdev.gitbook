@@ -82,7 +82,7 @@ Following an account's info is the **deposit** and **send** buttons enabling a u
 Transactions associated with the wallet's accounts are shown in the transaction history as well as confirmation status.
 
 {% hint style="info" %}
-If running a **Full Node,** history may not show until node is synced to current block height.
+If running a **Full Node,** history may not show until node is synced to current block height
 {% endhint %}
 
 

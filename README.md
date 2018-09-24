@@ -9,5 +9,5 @@ description: >-
 
 Community contributions to the documentation can be submitted on GitHub. 
 
-[Website](http://etcdevteam.com) \| [GitHub](http://github.com/etcdevteam/) \| [Twitter](https://twitter.com/etcdev) 
+[Website](http://etcdevteam.com) \| [GitHub](http://github.com/etcdevteam/) \| [Twitter](https://twitter.com/etcdev) \| [YouTube](https://www.youtube.com/channel/UCVYmiDI11qEo2GGGc_G48pw/featured)
 
