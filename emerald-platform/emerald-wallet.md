@@ -85,5 +85,125 @@ Transactions associated with the wallet's accounts are shown in the transaction 
 If running a **Full Node,** history may not show until node is synced to current block height
 {% endhint %}
 
+## Advanced Usage
 
+### Development Instructions {#user-content-development-instructions}
+
+The recommended way to assert that you are using the correct version of node is to use [nodenv](https://github.com/nodenv/nodenv), which will shim the `node` and `npm` commands and assert that the `local` version is set to what is specified in [.node-version](https://github.com/ETCDEVTeam/emerald-wallet/blob/master/.node-version).
+
+Once nodenv is installed:
+
+```text
+$ nodenv install
+```
+
+The supported version of `node` is `v6`. If you run into build errors, please make sure that you are using NodeV6 by running `node --version`.
+
+### Dependencies
+
+**NPM packages**
+
+This will install dependencies saved in `package.json` and `flow-typed` repository.
+
+```text
+$ npm run setup
+```
+
+### **Emerald and Geth**
+
+**Emerald**
+
+If you haven’t got `emerald` already installed on your system, you can execute `./dependencies.sh` to automatically `rustup` and use `cargo` to install `emerald-cli` and move it to the project’s base dir. Note: this command is idempotent _for rust and cargo_ \(it won’t try to install cargo if you’ve already got it\), but it will use cargo’s `-f` flag to force install `emerald-cli` and copy that version to the project directory.
+
+**Geth**
+
+If geth isn’t available in your project directory, upon launching the app, it automatically be downloaded and placed in your project base dir.
+
+### Run for development
+
+Firstly: a couple things aren’t working right. If you can fix either of these issues, @whilei will buy you a beer.
+
+* _Issue 1_: `webpack-dev-server` isn’t working right with the current babel-webpack-electron-izing setup. So you’ve got to do your development in Electron for now. Which means you can’t run `npm run start:web`. Bummer.
+
+With these caveats in mind, _you can run_:
+
+_Terminal 1_
+
+```text
+# This will begin a live-watching compiler for ./src/ and ./electron/ folders
+$ npm run build:all
+```
+
+_Terminal 2_
+
+```text
+# This will begin the simulated electron app pulling from those compiled sources.
+$ npm run start:electron
+```
+
+#### Logs {#user-content-logs}
+
+**Emerald logs**
+
+Electron and Emerald logs persisted in:
+
+* OSX: `~/Library/Logs/EmeraldWallet/log.log`
+* Linux: `~/.config/EmeraldWallet/log.log`
+
+**Geth logs**
+
+During development, you’ll find geth’s logs in `./logs` right in the project base directory.
+
+In production, logs will be nestled in
+
+* OSX: `~/Library/Application Support/EmeraldWallet/`
+* Windows: `%USERPROFILE%\AppData\Roaming\EmeraldWallet\logs`
+
+#### Building alternatively {#user-content-building-alternatively}
+
+You can also use a variety of alternate build options, eg.
+
+```text
+$ npm run build:all:nowatch
+$ npm run build:web
+```
+
+#### Building distributions in development {#user-content-building-distributions-in-development}
+
+You can run a distribution build in your development environment. Assuming you’ve already compiled `./src/` and `./electron/`, you’ll be able to run:
+
+```text
+$ npm run dist
+```
+
+This command will build for _your current system_. Note that there are configurations for several systems \(OSX, Linux, Windows\) specified in the `"build"` field of `package.json`, but the `dist` command will by default only build for the system it’s on.
+
+Note: If you’re developing on OSX and have a developer signing identity on your machine, you can optionally disable that with `CSC_IDENTITY_AUTO_DISCOVERY=false`.
+
+OSX is also able to build for Linux. Add `-ml` to that raw command to build for both OSX and Linux at the same time.
+
+#### Troubleshooting {#user-content-troubleshooting}
+
+Some preliminary things to try in case you run into issues:
+
+* Clear out any persisted settings or userdata from previous trials
+  * OSX: `~/Library/Application Support/EmeraldWallet`
+  * Linux: `~/.config/EmeraldWallet`
+  * Windows: `%APPDATA%\EmeraldWallet`
+
+### Run tests
+
+```text
+npm run test:watch
+```
+
+or for single run:
+
+```text
+npm test
+```
+
+### Developer Chat {#user-content-contact}
+
+Chat with us via [Gitter](https://gitter.im/ethereumproject/emerald-wallet)
 
