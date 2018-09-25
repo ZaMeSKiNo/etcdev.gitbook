@@ -98,10 +98,6 @@ $ brew upgrade geth
 
 Running a node downloads and syncs the Ethereum Classic blockchain. When a node is not running, it will download and sync blocks to the current state of the chain.
 
-{% hint style="info" %}
-
-{% endhint %}
-
 {% tabs %}
 {% tab title="MacOs" %}
 Initialize _Classic_ Geth by running `geth` , however consider reading on before running geth.
