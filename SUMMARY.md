@@ -7,7 +7,7 @@
 * [Emerald Platform](emerald-platform/README.md)
   * [Emerald](emerald-platform/emerald.md)
   * [Emerald Wallet](emerald-platform/emerald-wallet.md)
-  * [Emerald CLI](emerald-platform/emerald-cli/README.md)
+  * [Emerald Vault](emerald-platform/emerald-cli/README.md)
     * [Introduction](emerald-platform/emerald-cli/introduction.md)
     * [Install](emerald-platform/emerald-cli/install.md)
     * [Usage](emerald-platform/emerald-cli/usage.md)
