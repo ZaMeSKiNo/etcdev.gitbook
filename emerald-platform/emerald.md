@@ -105,7 +105,7 @@ $ emerald -h
 ```
 
 {% hint style="warning" %}
-If running emerald commands return nothing, then **nodenv** may simply need to rehash. 
+If emerald commands return nothing, then **nodenv** may simply need to rehash. 
 
 `$ nodenv rehash`
 {% endhint %}
