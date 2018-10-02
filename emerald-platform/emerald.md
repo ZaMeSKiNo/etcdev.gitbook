@@ -80,7 +80,7 @@ This process may take a few minutes. When it's done, Emerald will be installed g
 ```text
 $ emerald -h
 
-   emerald 0.0.1 
+   emerald 0.0.2 
 
    USAGE
 
@@ -89,9 +89,9 @@ $ emerald -h
    COMMANDS
 
      new                 Create a new project               
+     testrpc             Run testnet for ethereum classic   
      wallet              Boot Emerald Wallet                
      explorer            Boot Explorer                      
-     testrpc             Run testnet for ethereum classic   
      deploy              Deploy solidity to network         
      help <command>      Display help for a specific command
 
@@ -101,7 +101,7 @@ $ emerald -h
      -V, --version      Display version                                   
      --no-color         Disable colors                                    
      --quiet            Quiet mode - only displays warn and error messages
-     -v, --verbose      Verbose mode - will also output debug messages    
+     -v, --verbose      Verbose mode - will also output debug messages
 ```
 
 {% hint style="warning" %}
