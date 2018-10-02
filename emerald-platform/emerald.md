@@ -68,16 +68,11 @@ $ which node
 
 ## Install
 
-Download Emerald from the project repo [https://github.com/ETCDEVTeam/emerald](https://github.com/ETCDEVTeam/emerald) or `git clone`
+#### Option 1 \(recommended\)
 
 ```text
-$ git clone https://github.com/ETCDEVTeam/emerald
-```
-
-Within the working directory run 
-
-```text
-$ npm link
+$ brew install libgcrypt
+$ npm install -g https://github.com/ETCDEVTeam/emerald.git
 ```
 
 This process may take a few minutes. When it's done, Emerald will be installed globally. Open a new terminal window and run `emerald -h` to view commands and options.
@@ -107,6 +102,26 @@ $ emerald -h
      --no-color         Disable colors                                    
      --quiet            Quiet mode - only displays warn and error messages
      -v, --verbose      Verbose mode - will also output debug messages    
+```
+
+{% hint style="warning" %}
+If running emerald commands return nothing, then **nodenv** may simply need to rehash. 
+
+`$ nodenv rehash`
+{% endhint %}
+
+#### Option 2
+
+Download Emerald from the project repo [https://github.com/ETCDEVTeam/emerald](https://github.com/ETCDEVTeam/emerald) or `git clone`
+
+```text
+$ git clone https://github.com/ETCDEVTeam/emerald
+```
+
+Within the working directory run 
+
+```text
+$ npm link
 ```
 
 ## Usage
