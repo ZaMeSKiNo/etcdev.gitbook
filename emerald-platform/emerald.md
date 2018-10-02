@@ -47,7 +47,7 @@ Then initialize nodenv.
 $ nodenv init
 ```
 
-You may be prompted to add an append `.bash_profile`
+You may be prompted to add or append `.bash_profile`
 
 ```text
 $ nodenv init
