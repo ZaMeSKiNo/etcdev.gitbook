@@ -9,6 +9,8 @@ description: >-
 
 **GitHub** [https://github.com/ETCDEVTeam/emerald-wallet/releases](https://github.com/ETCDEVTeam/emerald-wallet/releases)
 
+![Emerald Wallet](../.gitbook/assets/emerald_green.png)
+
 ## Install
 
 Download and install the latest release of the Emerald Wallet for your operating system from [https://github.com/ETCDEVTeam/emerald-wallet/releases](https://github.com/ETCDEVTeam/emerald-wallet/releases)

@@ -6,6 +6,8 @@ description: >-
 
 # Emerald SDK
 
+![](../.gitbook/assets/emerald_sdk_green.jpg)
+
 ## The DApp Development Environment 
 
 In software development, an application is built in a testing environment before the production version is deployed. A testing environment allows developers to review the design, usability, and security of an application before deployment. This is true when building DApps and arguably more so due to the immutability of a decentralized public blockchain.
