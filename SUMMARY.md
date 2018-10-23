@@ -18,6 +18,6 @@
   * [Emerald Js](emerald-platform/emerald-js/README.md)
     * [How To Find All Particular Contracts](emerald-platform/emerald-js/how-to-find-all-particular-contracts.md)
     * [Javascript API](emerald-platform/emerald-js/javascript-api.md)
-* [ETC Blockchain Basics](etc-fundamentals/README.md)
+* [ETC Basics](etc-fundamentals/README.md)
   * [ETC Nodes](etc-fundamentals/ethereum-classic-nodes.md)
 

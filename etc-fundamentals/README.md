@@ -1,4 +1,4 @@
-# ETC Blockchain Basics
+# ETC Basics
 
 
 
