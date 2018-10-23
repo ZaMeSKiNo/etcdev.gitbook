@@ -2,7 +2,9 @@
 
 ![Emerald](../.gitbook/assets/emerald_sdk_green.jpg)
 
-Emerald in a open source project by ETCDEV, a core Ethereum Classic team, that works full time on Ethereum Classic projects.
+Emerald is an open source project by ETCDEV to build tools that help developers and engineers build decentralized systems on Ethereum Classic. 
+
+![](../.gitbook/assets/etcdev-product-categories.png)
 
 ### Emerald Wallet
 
