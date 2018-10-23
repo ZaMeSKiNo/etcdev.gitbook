@@ -10,7 +10,7 @@ description: >-
 ETCDEV is a leading Ethereum Classic \(ETC\) development company with a strong focus on building decentralized computing infrastructure, scaling solutions, and developer tools while providing long term support for the ETC blockchain.
 
 {% hint style="info" %}
-Community contributions to the documentation can be submitted though PR on GitHub. 
+Community contributions to the documentation can be submitted through PR on GitHub. Feel free to chat with us on Gitter.
 {% endhint %}
 
 ## Chat
