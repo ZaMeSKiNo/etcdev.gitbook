@@ -1,36 +1,56 @@
+---
+description: >-
+  Emerald is an open source project by ETCDEV to build tools that help
+  developers and engineers build decentralized systems on Ethereum Classic.
+---
+
 # Emerald
 
 ![Emerald](../.gitbook/assets/emerald_sdk_green.jpg)
 
-Emerald is an open source project by ETCDEV to build tools that help developers and engineers build decentralized systems on Ethereum Classic. 
+![Emerald is part of ETCDEV&apos;s numerous projects.](../.gitbook/assets/etcdev-product-categories.png)
 
-![](../.gitbook/assets/etcdev-product-categories.png)
+## Overview of Emerald Tools
 
 ### Emerald Wallet
 
-An Ethereum Classic wallet used for managing accounts, signing transactions, or simply signing every transaction that would cost gas.
+The Emerald Wallet is an ETC desktop wallet allowing users to manage ETC, Tokens, and Accounts.
 
-### Emerald Vault
+Capabilities: 
 
-An account storage API that keeps private keys protected and works offline. _Emerald Wallet integrates Emerald Vault._
+**Accounts**
+
+* Generate new ETC account
+* Import ETC account via keystore, private key, and ledger nano-s
+* Backup ETC account via keystore, private key, and paper wallet
+* Create and sign transactions
+
+**Tokens**
+
+* Import token by address
+
+**Network**
+
+* Select network nodes \(test-net/ main-net\)
+* Select full node or light node
 
 ### Emerald Explorer
 
-A personal block explorer for viewing blocks and transactions when building Emerald DApps.
+The Emerald Explorer is a light weight block explorer that can toggle between network nodes without having to download & sync an entire new chain.
 
-### Emerald-JS
+### Emerald JS/ RS
 
-A javascript API for both ETH and ETC and Emerald Vault JSON/RPC
+Emerald JS is a Javascript JSON/RPC API for compatible with ETC and ETH. The API is available in Rust also.
 
-### Emerald-JS-UI
+### Emerald JS UI
 
-Already built react components 
+Emerald JS UI is a highly modular and customizable library of already built UI components 
 
-### Emerald-Starter-Kit
+### Emerald Vault
 
-A barebones DApp offering a standardized process to develop DApps.
+Emerald Vault is an ETC account storage API that stores accounts, keys, and works offline.
 
-### SputnikVM-Dev
+### Emerald CLI
 
-A next generation EVM
+_The Swiss Army Knife_ of the Emerald SDK, encapsulating all the best Emerald tools with smart contract testing and deployment capabilities.
 
