@@ -1,4 +1,2 @@
 # ETC Basics
 
-
-

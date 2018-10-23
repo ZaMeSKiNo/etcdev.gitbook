@@ -1,10 +1,14 @@
+---
+description: A blockchain node is a machine running an implementation of the blockchain.
+---
+
 # ETC Nodes
 
 ## Overview
 
 ![](../.gitbook/assets/blockchain-node-overview.png)
 
-A blockchain node is **a machine running an implementation of the blockchain**. Running an Ethereum Classic node allows a user to be part of the Ethereum Classic network enabling a user or AI to:
+Running an Ethereum Classic node allows a user to be part of the Ethereum Classic network enabling a user or AI to:
 
 * Create and sign transactions
 * Manage accounts
