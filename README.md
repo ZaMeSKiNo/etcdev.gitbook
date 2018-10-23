@@ -1,8 +1,8 @@
 ---
 description: >-
   This mission of this documentation is to help new and existing developers
-  build unstoppable decentralized applications on Ethereum Classic using the
-  open source tools of the Emerald Platform.
+  build unstoppable decentralized applications on Ethereum Classic using
+  Emerald's open source tools.
 ---
 
 # ETCDEV Documentation
