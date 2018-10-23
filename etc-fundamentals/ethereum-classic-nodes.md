@@ -2,7 +2,7 @@
 description: A blockchain node is a machine running an implementation of the blockchain.
 ---
 
-# ETC Nodes
+# Nodes
 
 ## Overview
 
