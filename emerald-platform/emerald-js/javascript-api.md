@@ -2,9 +2,9 @@
 
 ## API Reference
 
-### ethrpc.web3 {#_ethrpc_web3}
+### ethrpc.web3 <a id="_ethrpc_web3"></a>
 
-#### ethrpc.web3.clientVersion {#_ethrpc_web3_clientversion}
+#### ethrpc.web3.clientVersion <a id="_ethrpc_web3_clientversion"></a>
 
 Returns the current client version.Parameters
 
@@ -18,9 +18,9 @@ ethrpc.web3.clientVersion()
 > Geth/v4.2.0-c999068/linux/go1.9.2
 ```
 
-### ethrpc.net {#_ethrpc_net}
+### ethrpc.net <a id="_ethrpc_net"></a>
 
-#### ethrpc.net.version {#_ethrpc_net_version}
+#### ethrpc.net.version <a id="_ethrpc_net_version"></a>
 
 Returns the current network idParameters
 
@@ -39,7 +39,7 @@ ethrpc.net.version()
 > 1
 ```
 
-#### ethrpc.net.listening {#_ethrpc_net_listening}
+#### ethrpc.net.listening <a id="_ethrpc_net_listening"></a>
 
 Returns `true` if client is actively listening for network connections.Parameters
 
@@ -53,7 +53,7 @@ ethrpc.net.listening()
 > true
 ```
 
-#### ethrpc.net.peerCount {#_ethrpc_net_peercount}
+#### ethrpc.net.peerCount <a id="_ethrpc_net_peercount"></a>
 
 Returns number of peers currently connected to the client.Parameters
 
@@ -67,9 +67,9 @@ ethrpc.net.peerCount()
 > 33
 ```
 
-### ethrpc.eth {#_ethrpc_eth}
+### ethrpc.eth <a id="_ethrpc_eth"></a>
 
-#### ethrpc.eth.protocolVersion {#_ethrpc_eth_protocolversion}
+#### ethrpc.eth.protocolVersion <a id="_ethrpc_eth_protocolversion"></a>
 
 Returns the current Ethereum protocol versionParameters
 
@@ -83,7 +83,7 @@ ethrpc.eth.protocolVersion()
 > 0x3f
 ```
 
-#### ethrpc.eth.getBalance {#_ethrpc_eth_getbalance}
+#### ethrpc.eth.getBalance <a id="_ethrpc_eth_getbalance"></a>
 
 ```text
 getBalance(address, [blockNumber])
@@ -106,7 +106,7 @@ ethrpc.eth.getBalance('0x0000000000000000000000000000000000000000')
   });
 ```
 
-#### ethrpc.eth.gasPrice {#_ethrpc_eth_gasprice}
+#### ethrpc.eth.gasPrice <a id="_ethrpc_eth_gasprice"></a>
 
 ```text
 gasPrice()
@@ -125,7 +125,7 @@ ethrpc.eth.gasPrice()
   });
 ```
 
-#### ethrpc.eth.getSyncing\(\) {#_ethrpc_eth_getsyncing}
+#### ethrpc.eth.getSyncing\(\) <a id="_ethrpc_eth_getsyncing"></a>
 
 ```text
 getSyncing()
@@ -150,7 +150,7 @@ ethrpc.eth.getSyncing()
   });
 ```
 
-#### ethrpc.eth.getBlock\(\) {#_ethrpc_eth_getblock}
+#### ethrpc.eth.getBlock\(\) <a id="_ethrpc_eth_getblock"></a>
 
 ```text
  getBlock(hashOrNumber [, includeTxs])
@@ -192,7 +192,7 @@ Example
   .then(block => console.log(block));
 ```
 
-#### ethrpc.eth.getTransactionCount\(\) {#_ethrpc_eth_gettransactioncount}
+#### ethrpc.eth.getTransactionCount\(\) <a id="_ethrpc_eth_gettransactioncount"></a>
 
 ```text
  getTransactionCount(address)
@@ -212,7 +212,7 @@ Returns
   .then(console.log); //
 ```
 
-#### ethrpc.eth.getTransaction\(\) {#_ethrpc_eth_gettransaction}
+#### ethrpc.eth.getTransaction\(\) <a id="_ethrpc_eth_gettransaction"></a>
 
 ```text
  getTransaction(hash)
@@ -262,7 +262,7 @@ Example
   */
 ```
 
-#### ethrpc.eth.getAddressTransactions\(\) {#_ethrpc_eth_getaddresstransactions}
+#### ethrpc.eth.getAddressTransactions\(\) <a id="_ethrpc_eth_getaddresstransactions"></a>
 
 ```text
  getAddressTransactions(address, blockNumFloor, blockNumCeil, toOrFrom, standardOrContract, beginPageIndex, endPageIndex, orderByOldest)
@@ -291,7 +291,7 @@ Returns
   */
 ```
 
-#### ethrpc.eth.getTransactionReceipt\(\) {#_ethrpc_eth_gettransactionreceipt}
+#### ethrpc.eth.getTransactionReceipt\(\) <a id="_ethrpc_eth_gettransactionreceipt"></a>
 
 ```text
  getTransactionReceipt(hash)
@@ -337,7 +337,7 @@ Example
   */
 ```
 
-#### ethrpc.eth.getCode\(\) {#_ethrpc_eth_getcode}
+#### ethrpc.eth.getCode\(\) <a id="_ethrpc_eth_getcode"></a>
 
 ```text
  getCode(address)
@@ -356,7 +356,7 @@ Returns
   .then(console.log); // 0x6060604052361561020e5760e060020a600035...
 ```
 
-#### ethrpc.eth.call\(\) {#_ethrpc_eth_call}
+#### ethrpc.eth.call\(\) <a id="_ethrpc_eth_call"></a>
 
 ```text
  call(callObject)
@@ -375,7 +375,7 @@ Returns
   .then(console.log); // 0x000000000000000000000000da4a4626d3e16e094de3225a751aab7128e96526
 ```
 
-#### ethrpc.eth.compile.solidity\(\) {#_ethrpc_eth_compile_solidity}
+#### ethrpc.eth.compile.solidity\(\) <a id="_ethrpc_eth_compile_solidity"></a>
 
 ```text
  compile.solidity(sourceCode)
@@ -406,7 +406,7 @@ Returns
         developerDoc: [Object] } } }
 ```
 
-#### ethrpc.eth.sendRawTransaction\(\) {#_ethrpc_eth_sendrawtransaction}
+#### ethrpc.eth.sendRawTransaction\(\) <a id="_ethrpc_eth_sendrawtransaction"></a>
 
 ```text
  sendRawTransaction(signedTransactionData)

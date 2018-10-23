@@ -1,6 +1,6 @@
 # Usage
 
-## Usage {#usage}
+## Usage <a id="usage"></a>
 
 Usage help description is based on [clap](https://clap.rs/). Use `-h | --help` for help menu:
 
@@ -58,7 +58,7 @@ SUBCOMMANDS:
     update    Update `name` and `description` for selected account
 ```
 
-### Environment variables {#_environment_variables}
+### Environment variables <a id="_environment_variables"></a>
 
 Environment variables allow you to redefine the default settings:
 
@@ -71,15 +71,15 @@ Environment variables allow you to redefine the default settings:
 * `EMERALD_SECURITY_LEVEL` - security level \(`normal` \| `high` \| `ultra`\)
 * `EMERALD_NODE` - url to upstream node. Used for sign and send of transactions
 
-### Output details level {#_output_details_level}
+### Output details level <a id="_output_details_level"></a>
 
 Use `-v` flag to manipulate verbosity
 
-## emerld -v {#_emerld_v}
+## emerld -v <a id="_emerld_v"></a>
 
 Will set verbose level to 1 - only info messages.
 
-## emerald -vv {#_emerald_vv}
+## emerald -vv <a id="_emerald_vv"></a>
 
 Will set verbose level to 2 - info and debug messages.
 

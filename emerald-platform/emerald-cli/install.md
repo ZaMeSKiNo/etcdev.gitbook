@@ -2,11 +2,11 @@
 
 ## Installing Emerald CLI
 
-### Download stable binary {#_download_stable_binary}
+### Download stable binary <a id="_download_stable_binary"></a>
 
 Binaries for all platforms are currently published at [https://github.com/ETCDEVTeam/emerald-cli/releases](https://github.com/ETCDEVTeam/emerald-cli/releases)
 
-### Install with Homebrew \(OSX only\) {#_install_with_homebrew_osx_only}
+### Install with Homebrew \(OSX only\) <a id="_install_with_homebrew_osx_only"></a>
 
 Installs latest stable binary.
 
@@ -14,7 +14,7 @@ Installs latest stable binary.
 $ brew install ethereumproject/classic/emerald-cli
 ```
 
-### Download development build {#_download_development_build}
+### Download development build <a id="_download_development_build"></a>
 
 | Warning | Development builds are usually unstable and may contain critical issues that can lead to loss of funds. Use it on your risk |
 | :--- | :--- |
@@ -22,9 +22,9 @@ $ brew install ethereumproject/classic/emerald-cli
 
 ETCDEV has a dedicated website for all build artifacts, which are published on each new commit into `master` branch. To download a latest development build, please open [https://builds.etcdevteam.com](https://builds.etcdevteam.com/)and choose _Emerald CLI_ tab
 
-### Build from sources {#_build_from_sources}
+### Build from sources <a id="_build_from_sources"></a>
 
-#### Requirements {#_requirements}
+#### Requirements <a id="_requirements"></a>
 
 Install Rust from [https://www.rust-lang.org/en-US/install.html](https://www.rust-lang.org/en-US/install.html)
 
@@ -38,7 +38,7 @@ $ curl https://sh.rustup.rs -sSf | sh
 | :--- | :--- |
 
 
-#### Compile {#_compile}
+#### Compile <a id="_compile"></a>
 
 **Step 1**
 

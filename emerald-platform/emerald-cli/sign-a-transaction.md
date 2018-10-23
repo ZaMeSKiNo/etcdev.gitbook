@@ -1,8 +1,8 @@
 # Sign a Transaction
 
-## Sign a Transaction {#sign-a-transaction}
+## Sign a Transaction <a id="sign-a-transaction"></a>
 
-## Offline {#_offline}
+## Offline <a id="_offline"></a>
 
 ```text
 $ emerald transaction \
@@ -14,7 +14,7 @@ $ emerald transaction \
     < echo "secret passphrase"
 ```
 
-## Sign and Broadcast {#_sign_and_broadcast}
+## Sign and Broadcast <a id="_sign_and_broadcast"></a>
 
 Send transaction for execution through a remote node:
 

@@ -1,6 +1,6 @@
 # How To Find All Particular Contracts
 
-## How to find all smart contracts with particular code {#how-to-find-all-smart-contracts-with-particular-code}
+## How to find all smart contracts with particular code <a id="how-to-find-all-smart-contracts-with-particular-code"></a>
 
 Imagine you’ve just found critical vulnerability in popular smart contract. A bug allows you to withdraw all coins from contract. You did it with your friend’s contract but you know that there are a plenty of such contracts on the blockchain, a huge bunch of money, right?
 
@@ -10,13 +10,13 @@ Smart contract in Ethereum is just account which holds compiled code. So the sim
 
 We will use `eth_getCode` JSON-RPC method to retrieve code for particular address.
 
-### Local full node {#_local_full_node}
+### Local full node <a id="_local_full_node"></a>
 
 Install you own full node. Without local instance you are on the risk to be banned by remote end point.
 
 Got to [http://github.com/ethereumproject/go-ethereum](http://github.com/ethereumproject/go-ethereum) and get latest version.
 
-### Requirements {#_requirements}
+### Requirements <a id="_requirements"></a>
 
 This tutorial uses Typescript. Let’s prepare environment.
 
@@ -26,7 +26,7 @@ You need:
 * typescript - `sudo npm install -g typescript`
 * ts-node - `sudo npm install -g ts-node`
 
-### Step 1 {#_step_1}
+### Step 1 <a id="_step_1"></a>
 
 Create simple npm project
 

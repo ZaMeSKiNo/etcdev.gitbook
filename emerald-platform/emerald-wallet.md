@@ -89,7 +89,7 @@ If running a **Full Node,** history may not show until node is synced to current
 
 ## Advanced Usage
 
-### Development Instructions {#user-content-development-instructions}
+### Development Instructions <a id="user-content-development-instructions"></a>
 
 The recommended way to assert that you are using the correct version of node is to use [nodenv](https://github.com/nodenv/nodenv), which will shim the `node` and `npm` commands and assert that the `local` version is set to what is specified in [.node-version](https://github.com/ETCDEVTeam/emerald-wallet/blob/master/.node-version).
 
@@ -143,7 +143,7 @@ _Terminal 2_
 $ npm run start:electron
 ```
 
-#### Logs {#user-content-logs}
+#### Logs <a id="user-content-logs"></a>
 
 **Emerald logs**
 
@@ -161,7 +161,7 @@ In production, logs will be nestled in
 * OSX: `~/Library/Application Support/EmeraldWallet/`
 * Windows: `%USERPROFILE%\AppData\Roaming\EmeraldWallet\logs`
 
-#### Building alternatively {#user-content-building-alternatively}
+#### Building alternatively <a id="user-content-building-alternatively"></a>
 
 You can also use a variety of alternate build options, eg.
 
@@ -170,7 +170,7 @@ $ npm run build:all:nowatch
 $ npm run build:web
 ```
 
-#### Building distributions in development {#user-content-building-distributions-in-development}
+#### Building distributions in development <a id="user-content-building-distributions-in-development"></a>
 
 You can run a distribution build in your development environment. Assuming you’ve already compiled `./src/` and `./electron/`, you’ll be able to run:
 
@@ -184,7 +184,7 @@ Note: If you’re developing on OSX and have a developer signing identity on you
 
 OSX is also able to build for Linux. Add `-ml` to that raw command to build for both OSX and Linux at the same time.
 
-#### Troubleshooting {#user-content-troubleshooting}
+#### Troubleshooting <a id="user-content-troubleshooting"></a>
 
 Some preliminary things to try in case you run into issues:
 
@@ -205,7 +205,7 @@ or for single run:
 npm test
 ```
 
-### Developer Chat {#user-content-contact}
+### Developer Chat <a id="user-content-contact"></a>
 
 Chat with us via [Gitter](https://gitter.im/ethereumproject/emerald-wallet)
 

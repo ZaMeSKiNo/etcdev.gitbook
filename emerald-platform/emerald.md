@@ -4,7 +4,7 @@ description: >-
   the tools of the Emerald Platform and more.
 ---
 
-# Emerald
+# Emerald CLI
 
 **GitHub** [https://github.com/ETCDEVTeam/emerald](https://github.com/ETCDEVTeam/emerald)
 

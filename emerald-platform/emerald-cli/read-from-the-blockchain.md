@@ -2,7 +2,7 @@
 
 ## Read From Blockchain
 
-### Get balance for address {#_get_balance_for_address}
+### Get balance for address <a id="_get_balance_for_address"></a>
 
 If using client that running on a local host \(127.0.0.1:8545\):
 

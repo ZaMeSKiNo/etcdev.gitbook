@@ -1,4 +1,4 @@
-# Emerald Platform
+# Emerald
 
 ![Emerald](../.gitbook/assets/emerald_sdk_green.jpg)
 
