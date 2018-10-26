@@ -1,8 +1,7 @@
 ---
 description: >-
-  This mission of this documentation is to help new and existing developers
-  build unstoppable decentralized applications on Ethereum Classic using
-  Emerald's open source tools.
+  ETCDEV is a leading Ethereum Classic development company with a strong focus
+  on decentralized computing providing long term support for the ETC blockchain.
 ---
 
 # ETCDEV Documentation
