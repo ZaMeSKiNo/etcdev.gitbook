@@ -216,6 +216,7 @@ This will open the Emerald Wallet. If emerald testRPC is running, Emerald will w
 To deploy an Emerald DApp to an Ethereum Classic network, run `emerald deploy` in the working directory of an Emerald DApp. The network specifications can be customized in `truffle.js` if needed. By default Emerald Wallet will connect with the emerald testRPC.
 
 ```text
+$ emerald compile
 $ emerald deploy
 migrated
 ```
