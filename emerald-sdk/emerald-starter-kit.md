@@ -96,7 +96,7 @@ module.exports = {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-## Run Emerald TestRPC
+## Run Emerald Vault
 
 Within the DApp directory, run `emerald testrpc` to run a local test net Ethereum Classic blockchain
 
@@ -107,6 +107,22 @@ private key: <account's private key>
 ```
 
 Emerald TestRPC will print several addresses and private keys associated with the test net instance. Leave this terminal open for reference to these accounts and addresses.
+
+## Run Emerald TestRPC
+
+Within the DApp directory, run `emerald testrpc` to run a local test net Ethereum Classic blockchain
+
+```text
+$ emerald testrpc foo
+address: <account address>
+private key: <account's private key>
+```
+
+Emerald TestRPC will print several addresses and private keys associated with the test net instance. Leave this terminal open for reference to these accounts and addresses.
+
+{% hint style="warning" %}
+Emerald Vault will automatically import the first testRPC account.
+{% endhint %}
 
 ## Open Emerald Wallet
 
