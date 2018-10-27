@@ -80,12 +80,14 @@ $ emerald -h
 
    COMMANDS
 
-     new                 Create a new project               
-     testrpc             Run testnet for ethereum classic   
-     wallet              Boot Emerald Wallet                
-     explorer            Boot Explorer                      
-     deploy              Deploy solidity to network         
-     help <command>      Display help for a specific command
+     new                       Create a new project                 
+     vault                     Run emerald vault                    
+     testrpc [passphrase]      Run testnet for ethereum classic     
+     wallet                    Boot Emerald Wallet                  
+     explorer                  Boot Explorer                        
+     compile                   Compile solidity for ethereum classic
+     deploy                    Deploy solidity to network           
+     help <command>            Display help for a specific command  
 
    GLOBAL OPTIONS
 
