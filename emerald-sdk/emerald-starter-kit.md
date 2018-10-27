@@ -146,6 +146,7 @@ $ npm install
 Deploy the Emerald DApp with `emerald deploy`
 
 ```text
+$ emerald compile
 $ emerald deploy
 ```
 
