@@ -73,5 +73,5 @@ Development builds are usually unstable with critical bugs not intended for prod
 
 ## License
 
-Apache 2.0
+License Apache 2.0
 

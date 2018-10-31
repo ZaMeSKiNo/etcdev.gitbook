@@ -229,5 +229,7 @@ Deployment will fail if no network is running or configured properly in `truffle
 
 To view commands and options, run `emerald -h`
 
+## License
 
+License Apache 2.0
 

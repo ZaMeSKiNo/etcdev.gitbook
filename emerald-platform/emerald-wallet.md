@@ -209,3 +209,7 @@ npm test
 
 Chat with us via [Gitter](https://gitter.im/ethereumproject/emerald-wallet)
 
+## License
+
+License Apache 2.0
+
