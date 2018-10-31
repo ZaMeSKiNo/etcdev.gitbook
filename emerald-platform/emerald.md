@@ -70,6 +70,8 @@ $ which node
 
 #### Option 1 \(recommended\)
 
+{% tabs %}
+{% tab title="MacOS" %}
 ```text
 $ brew install libgcrypt
 $ npm install -g https://github.com/ETCDEVTeam/emerald.git
@@ -109,6 +111,23 @@ If emerald commands return nothing, then **nodenv** may simply need to rehash.
 
 `$ nodenv rehash`
 {% endhint %}
+
+Updating Emerald CLI
+
+```text
+$ brew upgrade libgcrypt
+$ npm install -g https://github.com/ETCDEVTeam/emerald.git
+```
+{% endtab %}
+
+{% tab title="Windows" %}
+Coming soon...
+{% endtab %}
+
+{% tab title="Linux" %}
+Coming soon...
+{% endtab %}
+{% endtabs %}
 
 #### Option 2
 
