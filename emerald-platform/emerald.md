@@ -11,13 +11,16 @@ description: >-
 ## Dependencies
 
 * ​[homebrew](https://brew.sh/) \(for macOS users\)
-* ​[nodenv](https://github.com/nodenv/nodenv)
-* [node-build](https://github.com/nodenv/node-build#readme)
+* a node.js version manager
+  * ​[nodenv](https://github.com/nodenv/nodenv) & [node-build](https://github.com/nodenv/node-build#readme) or:
+  * [nvm](https://github.com/creationix/nvm)
 
-{% hint style="info" %}
-If you have node already installed, then we recommend uninstalling node and npm before installing nodenv.  
+{% hint style="warning" %}
+We recommend installing node.js via a node.js version manager. If you have node.js & npm already installed on your operating system, then remove them completely before reinstalling node with a node.js manager. If you have a node manager installed, such as nodenv or nvm, then you can move onto [installing the emerald cli](emerald-cli/install.md#installing-emerald-cli).
 {% endhint %}
 
+{% tabs %}
+{% tab title="MacOS" %}
 Install nodenv and node-build using homebrew. 
 
 ```text
@@ -66,12 +69,87 @@ $ which node
 /Users/JohnSmith/.nodenv/shims/node
 ```
 
+{% hint style="success" %}
+**Dependencies Installed**
+
+Now that node and npm are installed via a node.js package manager, move onto the [Install](emerald-cli/install.md#installing-emerald-cli) of the Emerald CLI.
+{% endhint %}
+{% endtab %}
+
+{% tab title="Linux" %}
+{% hint style="warning" %}
+Do not install node.js with `apt-get`on Ubuntu. If you installed node.js with the built in package manager, then remove it 
+
+`sudo apt-get purge nodejs && sudo apt-get autoremove && sudo apt-get autoclean`
+{% endhint %}
+
+Installing nvm
+
+```text
+$ $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash 
+```
+
+Confirm nvm installation
+
+```text
+$ nvm --version
+```
+
+Run the following command to increase the amount of inotify watches.
+
+```text
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+```
+
+Install _stable_ node version
+
+```text
+$ nvm install 10.11.0
+```
+
+Setup node version as the default
+
+```text
+$ nvm use 10.11.0
+$ nvm alias default 10.11.0
+```
+
+Confirm node version
+
+```text
+$ node -v
+v10.11.0
+```
+
+Update npm version
+
+```text
+$ npm install -g npm
+```
+
+Confirm node version
+
+```text
+$ npm -v
+6.4.1
+```
+
+{% hint style="success" %}
+**Dependencies Installed**
+
+Now that node and npm are installed via a node.js package manager, move onto the [Install](emerald-cli/install.md#installing-emerald-cli) of the Emerald CLI.
+{% endhint %}
+{% endtab %}
+{% endtabs %}
+
 ## Install
 
 #### Option 1 \(recommended\)
 
 {% tabs %}
 {% tab title="MacOS" %}
+Install Emerald CLI
+
 ```text
 $ brew install libgcrypt
 $ npm install -g https://github.com/ETCDEVTeam/emerald.git
@@ -120,16 +198,16 @@ $ npm install -g https://github.com/ETCDEVTeam/emerald.git
 ```
 {% endtab %}
 
-{% tab title="Windows" %}
-Coming soon...
-{% endtab %}
-
 {% tab title="Linux" %}
-Coming soon...
+Install Emerald CLI
+
+```text
+$ npm install -g https://github.com/ETCDEVTeam/emerald.git
+```
+
+This process may take a few minutes. When it's done, Emerald will be installed globally. Open a new terminal window and run `emerald -h` to view commands and options.
 {% endtab %}
 {% endtabs %}
-
-#### Option 2
 
 Download Emerald from the project repo [https://github.com/ETCDEVTeam/emerald](https://github.com/ETCDEVTeam/emerald) or `git clone`
 
