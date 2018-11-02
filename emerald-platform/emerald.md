@@ -140,6 +140,12 @@ $ npm -v
 Now that node and npm are installed via a node.js package manager, move onto the [Install](emerald-cli/install.md#installing-emerald-cli) of the Emerald CLI.
 {% endhint %}
 {% endtab %}
+
+{% tab title="Windows" %}
+Coming soon...
+
+In the mean time Windows users can install & boot Linux on a virtual machine or enable subsystem for Linux/ Unix in Windows Features.
+{% endtab %}
 {% endtabs %}
 
 ## Install
