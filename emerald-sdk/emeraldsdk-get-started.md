@@ -150,8 +150,6 @@ In the mean time Windows users can install & boot Linux on a virtual machine or 
 
 ### Installing
 
-#### Option 1 \(recommended\)
-
 {% tabs %}
 {% tab title="MacOS" %}
 Install Emerald CLI
