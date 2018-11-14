@@ -10,8 +10,11 @@ description: >-
 
 ## Dependencies
 
-* ​[homebrew](https://brew.sh/) \(for macOS users\)
-* a node.js version manager
+* ​[Homebrew](https://brew.sh/) \(for macOS users\)
+* Virtual Machine or Enable Subsystem for Linux \(for Windows users\)
+  * [VirtualBox ](https://www.virtualbox.org/)& a Linux image:
+    * [Ubuntu](https://www.ubuntu.com/), [Linux Mint](https://linuxmint.com/), etc...
+* a NodeJS version manager
   * ​[nodenv](https://github.com/nodenv/nodenv) & [node-build](https://github.com/nodenv/node-build#readme) or:
   * [nvm](https://github.com/creationix/nvm)
 
@@ -142,9 +145,47 @@ Now that node and npm are installed via a node.js package manager, move onto the
 {% endtab %}
 
 {% tab title="Windows" %}
-Coming soon...
+**Option 1 - Using a Linux VM**
 
-In the mean time Windows users can install & boot Linux on a virtual machine or enable subsystem for Linux/ Unix in Windows Features.
+Windows users can install a Virtual Machine running Linux. Generally users need a Linux image \(.iso\) to install the operating system to their VM software.
+
+1. Download and install a Linux image from [Ubuntu ](https://www.ubuntu.com/)or any other Linux distribution supported by your desired VM software.
+2. Download and install [VirtualBox](https://www.virtualbox.org/) or your desired VM software.
+3. Launch the VM and start your Virtual Machine. You may be prompted to use the Linux image \(.iso\) to complete the installation.
+
+**Option 2 - Enabling Subsystem for Linux**
+
+{% hint style="info" %}
+[https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+{% endhint %}
+
+Install the Windows Subsystem for Linux
+
+Windows Features &gt; \(switch on\) Windows Subsystem for Linux
+
+Before installing any Linux distros for WSL, you must ensure that the "Windows Subsystem for Linux" optional feature is enabled:
+
+1. Open PowerShell as Administrator and run:
+
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux or Windows Features &gt; \(switch on\) Windows Subsystem for Linux
+
+1. Restart your computer when prompted
+
+## Install your Linux Distribution of Choice
+
+1. Download and install from the Windows Store
+
+[https://docs.microsoft.com/en-us/windows/wsl/media/store.png](https://docs.microsoft.com/en-us/windows/wsl/media/store.png)
+
+1. From Distro page select Get
+
+[https://docs.microsoft.com/en-us/windows/wsl/media/ubuntustore.png](https://docs.microsoft.com/en-us/windows/wsl/media/ubuntustore.png)
+
+## Complete initialization of your distro
+
+First initilizing bash would prompt to create user and password which doesn't effect native Windows user.
+
+The distro is generally located at C:\Users$HOME\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu18.04onWindows\_79rhkp1fndgsc\LocalState\rootfs
 {% endtab %}
 {% endtabs %}
 
