@@ -184,7 +184,11 @@ From Distro page select Get
 First initializing bash would prompt to create user and password which doesn't effect native Windows user.
 
 {% hint style="info" %}
-Default distro store `C:\Users$HOME\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc\LocalState\rootfs`
+Default distro data location: C:\Users\$HOME\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu18.04onWindows\_79rhkp1fndgsc\LocalState\rootfs
+{% endhint %}
+
+{% hint style="danger" %}
+If Linux VM or Linux distro is successfully setup, then follow Linux instructions to complete installing dependencies.
 {% endhint %}
 {% endtab %}
 {% endtabs %}
