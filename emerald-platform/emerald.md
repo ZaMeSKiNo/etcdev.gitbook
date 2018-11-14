@@ -11,7 +11,7 @@ description: >-
 ## Dependencies
 
 * ​[Homebrew](https://brew.sh/) \(for macOS users\)
-* Virtual Machine or Enable Subsystem for Linux \(for Windows users\)
+* Virtual Machine or Enable Subsystem for Linux WSL \(for Windows users\)
   * [VirtualBox ](https://www.virtualbox.org/)& a Linux image:
     * [Ubuntu](https://www.ubuntu.com/), [Linux Mint](https://linuxmint.com/), etc...
 * a NodeJS version manager
@@ -153,39 +153,39 @@ Windows users can install a Virtual Machine running Linux. Generally users need 
 2. Download and install [VirtualBox](https://www.virtualbox.org/) or your desired VM software.
 3. Launch the VM and start your Virtual Machine. You may be prompted to use the Linux image \(.iso\) to complete the installation.
 
-**Option 2 - Enabling Subsystem for Linux**
+**Option 2 - Enabling Windows Subsystem for Linux**
 
 {% hint style="info" %}
 [https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 {% endhint %}
 
-Install the Windows Subsystem for Linux
+**Install the Windows Subsystem for Linux \(WSL\)**
 
-Windows Features &gt; \(switch on\) Windows Subsystem for Linux
+Windows Features &gt; \(switch on\) Windows Subsystem for Linux, 
 
-Before installing any Linux distros for WSL, you must ensure that the "Windows Subsystem for Linux" optional feature is enabled:
+or
 
-1. Open PowerShell as Administrator and run:
+Open PowerShell as Administrator and run:
 
-Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux or Windows Features &gt; \(switch on\) Windows Subsystem for Linux
+`Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
 
-1. Restart your computer when prompted
+**Install Linux Distribution of Choice**
 
-## Install your Linux Distribution of Choice
+Download and install from the Windows Store
 
-1. Download and install from the Windows Store
+![](../.gitbook/assets/image.png)
 
-[https://docs.microsoft.com/en-us/windows/wsl/media/store.png](https://docs.microsoft.com/en-us/windows/wsl/media/store.png)
+From Distro page select Get
 
-1. From Distro page select Get
+![](../.gitbook/assets/image%20%281%29.png)
 
-[https://docs.microsoft.com/en-us/windows/wsl/media/ubuntustore.png](https://docs.microsoft.com/en-us/windows/wsl/media/ubuntustore.png)
+**Complete Initialization of Your Distro**
 
-## Complete initialization of your distro
+First initializing bash would prompt to create user and password which doesn't effect native Windows user.
 
-First initilizing bash would prompt to create user and password which doesn't effect native Windows user.
-
-The distro is generally located at C:\Users$HOME\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu18.04onWindows\_79rhkp1fndgsc\LocalState\rootfs
+{% hint style="info" %}
+Default distro store `C:\Users$HOME\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc\LocalState\rootfs`
+{% endhint %}
 {% endtab %}
 {% endtabs %}
 
