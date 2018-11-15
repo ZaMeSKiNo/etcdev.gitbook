@@ -89,7 +89,7 @@ Do not install node.js with `apt-get`on Ubuntu. If you installed node.js with th
 Installing nvm
 
 ```text
-$ $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash 
+$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash 
 ```
 
 Confirm nvm installation
@@ -257,18 +257,6 @@ $ npm install -g https://github.com/ETCDEVTeam/emerald.git
 This process may take a few minutes. When it's done, Emerald will be installed globally. Open a new terminal window and run `emerald -h` to view commands and options.
 {% endtab %}
 {% endtabs %}
-
-Download Emerald from the project repo [https://github.com/ETCDEVTeam/emerald](https://github.com/ETCDEVTeam/emerald) or `git clone`
-
-```text
-$ git clone https://github.com/ETCDEVTeam/emerald
-```
-
-Within the working directory run 
-
-```text
-$ npm link
-```
 
 ## Usage
 
