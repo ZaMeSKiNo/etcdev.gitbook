@@ -145,7 +145,15 @@ Now that node and npm are installed via a node.js package manager, move onto the
 {% endtab %}
 
 {% tab title="Windows" %}
-**Option 1 - Using a Linux VM**
+**Option 1 - Recommended**
+
+Download and install a release of nvm-windows from [https://github.com/coreybutler/nvm-windows/releases](https://github.com/coreybutler/nvm-windows/releases).
+
+{% hint style="info" %}
+nvm-windows is an entirely separate from [nvm](https://github.com/creationix/nvm), which is macOS and Linux only.
+{% endhint %}
+
+**Option 2 - Using a Linux VM**
 
 Windows users can install a Virtual Machine running Linux. Generally users need a Linux image \(.iso\) to install the operating system to their VM software.
 
@@ -153,7 +161,7 @@ Windows users can install a Virtual Machine running Linux. Generally users need 
 2. Download and install [VirtualBox](https://www.virtualbox.org/) or your desired VM software.
 3. Launch the VM and start your Virtual Machine. You may be prompted to use the Linux image \(.iso\) to complete the installation.
 
-**Option 2 - Enabling Windows Subsystem for Linux**
+**Option 3 - Enabling Windows Subsystem for Linux**
 
 {% hint style="info" %}
 [https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
