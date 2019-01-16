@@ -22,7 +22,7 @@ When a critical bug is discovered on a traditional application, it is possible f
 4. **Block-explorer**: A personal block explorer to explore blocks on a test-net.
 5. **Smart Contract Testing and Deployment**: Tool to compile, test, and deploy the DApp on a given network.
 
-There are many tools available to developers such as ReMix to compile contracts, and MetaMask to interact with test contracts. However these tools do not work together, and do not provide a simple build chain to create a whole app. Presently everything is very piecemeal. The Emerald SDK encapsulate this workflow to make DApp development easier.
+There are many tools available to developers such as ReMix to compile contracts, and MetaMask to interact with test contracts. However these tools do not work together, and do not provide a simple build chain to create a whole app. Presently everything is very piecemeal. The Emerald SDK encapsulate this workflow to make DApp development easier...
 
 ### Overview of Emerald SDK Tool Set
 
